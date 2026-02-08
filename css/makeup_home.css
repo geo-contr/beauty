@@ -352,6 +352,9 @@
     left: 4%;
 }
 .nails-container .is-flex-grid-element .nails-plus svg {
+    -webkit-transform-origin: center;
+        -ms-transform-origin: center;
+            transform-origin: center;
     -webkit-transition: -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
     transition: -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
     -o-transition: transform .25s ease-in, filter .25s ease-in;
@@ -359,9 +362,9 @@
     transition: transform .25s ease-in, filter .25s ease-in, -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
 }
 .nails-container .is-flex-grid-element .nails-plus svg.is-close-plus {
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -webkit-transform: rotate(22.5deg);
+        -ms-transform: rotate(22.5deg);
+            transform: rotate(22.5deg);
 }
 .nails-container img{
     width: 100%;
